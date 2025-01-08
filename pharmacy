@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Al Kasr Al Eini</title>
+    <style>
+        p {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #052344;
+            text-align: justify;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p:hover {
+            color: #042242;
+            background-color: #e0f7fa;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            p {
+                font-size: 14px;
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    Al Kasr Al Eini Hospital
+</header>
+
+<nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="signin.html">Sign In</a>
+    <a href="Donations.html">Donations</a>
+</nav>
+<div>
+    <h1>Al Kasr Al Eini pharmacy</h1>
+    <p><strong>At Al Kasr Al Eini, we are committed to providing comprehensive pharmaceutical care to our patients. Our Pharmacy Services are designed to ensure that you receive the right medications, in the right doses, and with the right guidance to support your health and recovery. Whether you're in need of a prescription refill, specialized medication counseling, or expert advice on managing your medications, our dedicated pharmacy team is here to assist you every step of the way.
