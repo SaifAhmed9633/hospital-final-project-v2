@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #123;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: rgb(23, 46, 68);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(9, 16, 23);
+    transform: scale(1.1);
+}
+
+.Main {
+    background-image: url(hospital2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.Main h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.Main p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    font-size: 2em;
+    color: #123;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h4 {
+    font-size: 1.5em;
+    color: #123;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
+
+footer {
+    background-color: #123;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    .Main h1 {
+        font-size: 2.5em;
+    }
+
+    .Main p {
+        font-size: 1em;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+
+.signin {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signin h2 {
+    font-size: 2em;
+    color: #123;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #123;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #123;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer; 
+}
+
+.signin-button:hover {
+    background-color: rgb(9, 16, 23);
+}
+
+.learn-more {
+    padding: 10px 20px;
+    background-color: #123;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
