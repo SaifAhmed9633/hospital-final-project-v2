@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Al Kasr Al Eini</title>
+    <style>
+        p {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #052344;
+            text-align: justify;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p:hover {
+            color: #042242;
+            background-color: #e0f7fa;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            p {
+                font-size: 14px;
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    Al Kasr Al Eini Hospital
+</header>
+
+<nav class="navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="signin.html">Sign In</a>
+    <a href="Donations.html">Donations</a>
+</nav>
+<div>
+    <h1>Al Kasr Al Eini home visits</h1>
+    <p><strong>At Al Kasr Al Eini Hospital, we are committed to providing exceptional care that extends beyond our hospital doors. Our Home Visit Services are designed to offer convenience, comfort, and continuity of care in the familiar surroundings of your own home. Whether you are recovering from a medical procedure, managing a chronic condition, or in need of specialized post-discharge care, our team is here to support you every step of the way.
+
+        What are Home Visit Services?
+        Our Home Visit Services bring professional medical care directly to your home. These services are tailored to meet your specific needs and are provided by our skilled healthcare professionals, including doctors, nurses, physiotherapists, and other specialists. Whether you require short-term assistance or long-term care, we ensure you receive the highest level of attention and support.
+        
+        Types of Home Visit Services We Offer
+        Post-Surgery or Post-Procedure Care
+        After surgery or a medical procedure, recovery can be smoother and faster with the right care at home. Our team provides:
+        
+        Wound care and dressing changes
+        Medication management and reminders
+        Physical therapy to aid in rehabilitation
+        Vital sign monitoring (e.g., blood pressure, pulse, temperature)
+        Patient education on recovery and self-care techniques
+        Chronic Disease Management
+        For patients with chronic conditions like diabetes, heart disease, or respiratory issues, we provide regular monitoring and management:
+        
+        Medication management and education
+        Blood glucose and blood pressure monitoring
+        Dietary guidance and lifestyle counseling
+        Physical therapy and rehabilitation services
+        Ongoing education on managing symptoms and preventing complications
+        Palliative and End-of-Life Care
+        Our compassionate palliative care team is dedicated to improving the quality of life for patients with serious illnesses. Services include:
+        
+        Pain management and symptom relief
+        Emotional and spiritual support for both patients and their families
+        Personal care assistance with daily activities
+        End-of-life care to ensure comfort and dignity during the final stages of life
+        Maternity and Postpartum Care
+        For new mothers, our home visit services include:
+        
+        Postpartum check-ups for mothers and newborns
+        Breastfeeding support from certified lactation consultants
+        Infant care guidance, including sleep routines, feeding, and immunizations
+        Mental health support and counseling to address postpartum mood disorders
+        Pediatric Care
+        Our pediatric team provides home visits for children who require medical attention but are more comfortable staying at home. We offer:
+        
+        Routine check-ups and vaccinations
+        Sick child visits, including fever, rashes, and other common illnesses
+        Nutritional counseling and healthy lifestyle recommendations
+        Benefits of Home Visit Services
+        Convenience: No need to travel to appointments—our medical professionals come directly to you at a time that fits your schedule.
+        Comfort: Recover or receive care in the privacy and comfort of your own home, surrounded by loved ones.
+        Continuity of Care: We ensure seamless communication between your home care team and other healthcare providers to maintain a coordinated care plan.
+        Personalized Attention: With one-on-one visits, you receive undivided attention from healthcare professionals focused on your needs.
+        Cost-Effective: Home visits can sometimes reduce hospital readmissions and may be a more affordable alternative to outpatient visits.
+
+    </strong></p>
+</div>
+
+
+
+
+
+<footer>
+    <p1>&copy; 2025 Al Kasr Al Eini Hospital. All rights reserved.</p1>
+</footer>
+</body>
+</html>
