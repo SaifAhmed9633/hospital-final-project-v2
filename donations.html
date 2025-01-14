@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donation Page</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your existing CSS -->
+    <title>Donation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        Al Kasr Al Eini Hospital - Donations
+        Al Kasr Al Eini Hospital
     </header>
 
     <nav class="navigation">
@@ -21,7 +21,9 @@
 
     <div class="donation-form">
         <h2>Donation Form</h2>
+
         <form onsubmit="Addrecord(); return false;">
+        
             <label for="FULLNAME">Full Name</label>
             <input type="text" id="FULLNAME" placeholder="Enter your full name" required>
 
@@ -32,27 +34,29 @@
             <input type="number" id="MONEY" placeholder="Enter donation amount" required>
 
             <input type="submit" value="Record Donation" class="donate-button">
+        
         </form>
     </div>
 
     <div class="donation-table">
         <h2>Donation Records</h2>
+        
         <table border="1" id="mytable">
-            <thead>
-                <tr>
-                    <th>Full Name</th>
-                    <th>Email</th>
-                    <th>Donation Amount</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Example row -->
-                <tr>
-                    <td>Faris</td>
-                    <td>Faris@a.com</td>
-                    <td>$100</td>
-                </tr>
-            </tbody>
+        
+            <tr>
+                <td>Full Name</td>
+                <td>Email</td>
+                <td>Donation Amount</td>
+            </tr>
+            
+
+
+            <tr>
+                <td>Faris</td>
+                <td>Faris@a.com</td>
+                <td>$100</td>
+            </tr>
+        
         </table>
     </div>
 
@@ -60,20 +64,6 @@
         <p>&copy; 2025 Al Kasr Al Eini Hospital. All rights reserved.</p>
     </footer>
 
-    <script>
-        function Addrecord() {
-            const table = document.getElementById("mytable").getElementsByTagName('tbody')[0];
-            const row = table.insertRow(-1);
-
-            row.insertCell(0).textContent = document.getElementById("FULLNAME").value;
-            row.insertCell(1).textContent = document.getElementById("EMAIL").value;
-            row.insertCell(2).textContent = "$" + document.getElementById("MONEY").value;
-
-
-            document.getElementById("FULLNAME").value = "";
-            document.getElementById("EMAIL").value = "";
-            document.getElementById("MONEY").value = "";
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
