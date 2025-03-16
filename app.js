@@ -13,5 +13,4 @@
         document.getElementById("EMAIL").value = "";
         document.getElementById("MONEY").value = "";
         document.getElementById();
-        alert(`Thank you Mr. ${fullName} for your donation of $${donationAmount} to our hospital!`);
     }
